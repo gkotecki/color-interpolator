@@ -1,4 +1,4 @@
-import { Button } from '../components/Button';
+import { Button } from '../../components/Button';
 
 /**
  * Home page component
@@ -6,7 +6,7 @@ import { Button } from '../components/Button';
 export const Home = () => {
   return (
     <>
-      <h1> Color Interpolator </h1>
+      <h1 className="font-sans font-extrabold"> Color Interpolator </h1>
       <Button>button</Button>
     </>
   );
